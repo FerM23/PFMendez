@@ -13,7 +13,7 @@ body{
     flex-direction: column;
 }
     
-header{
+header{ !important
     display: flex;
     justify-content: space-evenly;
     background-color: lightcoral;
@@ -37,7 +37,7 @@ header{
     font-size: 30px;
 }
 
-.logo a{
+.logo a{ 
     text-decoration: none;
     color: antiquewhite;
 }
