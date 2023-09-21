@@ -12,8 +12,8 @@ body{
     display: flex;
     flex-direction: column;
 }
-    
-header{ !important
+
+header{
     display: flex;
     justify-content: space-evenly;
     background-color: lightcoral;
@@ -106,7 +106,7 @@ h1 a:hover{
 section{
     display:grid;
     grid-template-columns: 1fr;
-    /* grid-gap: 500px; */
+    // grid-gap: 500px; 
     background-color: beige;
     align-items: center;
 }
@@ -147,7 +147,7 @@ section{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    color: #070606;/
+    color: #070606;
 }
 
 
@@ -168,6 +168,7 @@ h2{
     text-align: center;
     font-size: 80px;
     background-color: red;
+    
 }
 
 h2 a:hover{
@@ -179,6 +180,7 @@ h2 a:hover{
     color: black;
     text-decoration: none;
     text-align: center;
+    margin-bottom: 0px !important;
 }
 
 footer{
@@ -343,13 +345,14 @@ video{
     }   
     .call4 h1{
         font-size: 40px; 
-}
+    }
+}    
 
 @media only screen and (min-width:600px){
     .barra a{
         font-size: 25px;
     }
-    video{
+    .video{
         height: 200px;
     }
     .titulos{
@@ -366,13 +369,14 @@ video{
     }
     .call4 h1{
         font-size: 50px; 
-}
+    }
+}    
 
 @media only screen and (min-width:768px){
     .barra a{
         font-size: 30px;
     }
-    footer{
+    .footer{
         font-size: 40px;
     }
     .item p{
@@ -405,7 +409,7 @@ video{
     .barra a{
         font-size: 40px;
     }
-    footer{
+    .footer{
         font-size: 60px;
     }
     .item p{
@@ -419,16 +423,19 @@ video{
     }
     .call4 h1{
         font-size: 90px;
-}
+    }
+}    
+
 
 @media only screen and (min-width:1200px){
     .barra a{
         font-size: 50px;
     }
-    video{
+    .video{
         height: 800px;
     }
     .redes i{
-        font-size: 60px;
+        font-size: 50px;
     }    
 }
+
