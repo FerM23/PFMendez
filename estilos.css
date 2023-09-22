@@ -15,12 +15,12 @@ body {
 
 header {
   display: flex;
-  justify-content: space-evenly;
   background-color: lightcoral;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 20px;
   font-weight: 600;
   flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -29,7 +29,14 @@ header {
   font-size: 70px;
 }
 
-.logo span {
+.navbar {
+  color: brown;
+  text-decoration: none;
+  font-size: 40px;
+  justify-content: left;
+}
+
+.navbar span {
   color: white;
 }
 
@@ -141,7 +148,6 @@ section {
 }
 
 .sece p {
-  background-color: rgb(243, 225, 191);
   display: grid;
   grid-template-columns: 1fr;
   border: 15px solid #fff;
@@ -149,29 +155,35 @@ section {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   color: #070606;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(160, 108, 108) 77%, rgb(252, 176, 69) 100%);
 }
 
 .item p {
-  background-color: rgb(243, 225, 191);
-  border: 15px solid #c41919;
   text-align: center;
   align-content: flex-end;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   color: #070606;
-  margin-top: 130px;
+  align-content: center;
+  transform: rotateZ(720deg);
+  transition: all 2s;
+}
+
+.item p:hover {
+  color: wheat;
 }
 
 h2 {
   text-align: center;
   font-size: 80px;
-  background-color: red;
   margin: 0px;
 }
 
 h2 a:hover {
   color: white;
+  transition: 1s all;
 }
 
 .color1 {
