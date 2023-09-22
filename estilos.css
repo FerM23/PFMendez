@@ -105,7 +105,6 @@ h1 a:hover {
 section {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-gap: 500px; */
   background-color: beige;
   align-items: center;
 }
@@ -176,6 +175,7 @@ h2 a:hover {
   color: black;
   text-decoration: none;
   text-align: center;
+  margin-bottom: 0px !important;
 }
 
 footer {
@@ -341,7 +341,7 @@ video {
   .barra a {
     font-size: 25px;
   }
-  video {
+  .video {
     height: 200px;
   }
   .titulos {
@@ -364,7 +364,7 @@ video {
   .barra a {
     font-size: 30px;
   }
-  footer {
+  .footer {
     font-size: 40px;
   }
   .item p {
@@ -396,7 +396,7 @@ video {
   .barra a {
     font-size: 40px;
   }
-  footer {
+  .footer {
     font-size: 60px;
   }
   .item p {
@@ -416,7 +416,7 @@ video {
   .barra a {
     font-size: 50px;
   }
-  video {
+  .video {
     height: 800px;
   }
   .redes i {
