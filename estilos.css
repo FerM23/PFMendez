@@ -81,7 +81,6 @@ main {
   flex-direction: column;
   background-position: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* align-content: space-around; */
 }
 
 main h2 a {
@@ -113,14 +112,16 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  background-color: lightgoldenrodyellow;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(160, 108, 108) 77%, rgb(252, 176, 69) 100%);
 }
 
 .sec2 {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  background-color: lightgreen;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(208, 224, 0) 64%, rgb(252, 176, 69) 100%);
 }
 
 .sec3 {
@@ -128,6 +129,8 @@ section {
   grid-template-columns: 1fr;
   justify-items: center;
   background-color: lightpink;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(0, 224, 97) 64%, rgb(252, 176, 69) 100%);
 }
 
 .sece {
@@ -164,10 +167,26 @@ h2 {
   text-align: center;
   font-size: 80px;
   background-color: red;
+  margin: 0px;
 }
 
 h2 a:hover {
   color: white;
+}
+
+.color1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(160, 108, 108) 77%, rgb(252, 176, 69) 100%);
+}
+
+.color2 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(208, 224, 0) 64%, rgb(252, 176, 69) 100%);
+}
+
+.color3 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(0, 224, 97) 64%, rgb(252, 176, 69) 100%);
 }
 
 .titulos {
