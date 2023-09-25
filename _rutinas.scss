@@ -1,0 +1,23 @@
+.secrutinas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,224,97,1) 64%, rgba(252,176,69,1) 100%);
+    font-size: 20px;
+    
+        p{
+            color: white;
+            font-size: 30px;
+            border: 4px dotted yellowgreen
+        }
+    
+}
+
+.rutinas2{
+    color: black;
+        h2{
+            font-size: 40px;
+            text-decoration:underline;
+        }
+}
