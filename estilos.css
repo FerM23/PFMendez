@@ -186,7 +186,7 @@ h2:hover {
 }
 
 .color3 {
-  background: rgb(131, 58, 180);
+  background: rgb(187, 176, 194);
   background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(208, 224, 0) 64%, rgb(252, 176, 69) 100%);
 }
 
@@ -287,6 +287,12 @@ footer {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 160, 128);
+}
+
 video {
   justify-content: center;
   height: 200px;
@@ -296,6 +302,14 @@ video {
 .form-control {
   width: 410px;
   height: 50px;
+}
+
+.input-group {
+  width: 500px;
+}
+
+.mb-3 mt-3 {
+  align-items: center !important;
 }
 
 @media only screen and (min-width: 100px) {
@@ -330,8 +344,8 @@ video {
     font-size: 30px;
   }
   .mapa {
-    width: 150px !important;
-    height: 150px !important;
+    width: 10px !important;
+    height: 10px !important;
   }
   .video {
     width: 70px;
@@ -344,6 +358,12 @@ video {
   }
   .call4 p {
     font-size: 15px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .mapa {
+    width: 100px !important;
+    height: 100px !important;
   }
 }
 @media only screen and (min-width: 575px) {
@@ -376,8 +396,8 @@ video {
   }
 }
 .mapa {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
 }
 
 .call2 p {
@@ -419,8 +439,8 @@ video {
     line-height: 30px;
   }
   .mapa {
-    width: 450px;
-    height: 450px;
+    width: 450px !important;
+    height: 450px !important;
   }
   .call2 p {
     font-size: 50px;
