@@ -48,12 +48,13 @@ header{
     text-decoration: none;
     text-align: center;
     margin-bottom: 0px;
-    font-size: 60px;
 }
+
 .titulos:hover{
-            color: wheat;
-            transition: 1s;
-        }
+    color: wheat;
+    transition: 1s;
+}
+
 
 .call{
     display: flex;
@@ -258,6 +259,29 @@ footer{
     display: flex;
 }
 
+.secrecetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(208,224,0,1) 64%, rgba(252,176,69,1) 100%);
+}
+
+.recets{
+    width: 600px;
+    height: auto;
+    border: 10px solid lightcoral;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.instrucciones{
+    text-decoration: underline;
+    color: wheat;
+}
+
 .call2{
     color: white;
     width: 100%;
@@ -390,8 +414,14 @@ video{
     }
     .call4 
         p{
-        font-size: 
-        $fontsize;
+        font-size: $fontsize;
+    }
+    .call5
+        p{
+        font-size: $fontsize;
+        }
+    h2{
+        font-size: 50px;
     }
 }    
 
@@ -400,6 +430,7 @@ video{
         width: 100px !important;
         height: 100px !important;
     }
+    
 }
 
 @media only screen and (min-width:575px){
@@ -432,6 +463,10 @@ video{
             font-size: 30px;
         }
     }
+    .call5
+        p{
+            font-size: 30px;
+        }
     .mapa{
         width: 250px ;
         height: 250px ;
@@ -481,16 +516,20 @@ video{
     }
     .call2  
         p{
-        font-size: 50px;
+            font-size: 50px;
     }
     .call3  
         p{
-        font-size: 50px;
+            font-size: 50px;
     }
     .call4 
         p{
-        font-size:50px;
+            font-size:50px;
     }
+    .call5
+        p{
+            font-size:50px;
+        }
 }
 
 @media only screen and (min-width:1024px){
